@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      echo "from install commands"
+  build:
+    commands:
+      echo "from build commands"
+artifacts:
+  files:
+    - '**/*'
